@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-->about us section<!-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <!-->logo<!-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/logo"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo">
+
+        </ImageView>
+        <!-->paragraph 1<!-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us_desc"
+            android:textColor="@color/lavender"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:padding="15dp"
+            android:textIsSelectable="true"
+            >
+        </TextView>
+        <!-->paragraph 2<!-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/lavender"
+            android:textIsSelectable="true"
+            android:text="@string/contact_msg">
+
+        </TextView>
+        <!-->email<!-->
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="#1476CF"
+            android:text="@string/contact_hanami_com"
+            android:clickable="true"
+            android:focusable="true"
+            android:textIsSelectable="true"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-->about us section<!-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <!-->logo<!-->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/logo"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/logo"
+                android:layout_marginBottom="20dp">
+
+            </ImageView>
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                />
+
+            <!-- Introduction -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_intro"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Data Collection -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_collection"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_collection_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Data Usage -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_usage"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_usage_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Data Disclosure -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_disclosure"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/data_disclosure_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Third-party Services -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/third_party_services"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/third_party_services_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Security -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/security"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/security_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+
+            <!-- Changes to Privacy Policy -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changes_to_privacy_policy"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/changes_to_privacy_policy_body"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"/>
+
+            <!-- Contact Us -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us_privacy"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us_privacy_body"
+                android:layout_marginBottom="0dp"
+                android:textColor="@color/lavender"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textIsSelectable="true"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/contact_priv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="100dp"
+                android:textColor="#1476CF"
+                android:text="@string/contact_hanami_com"
+                android:clickable="true"
+                android:focusable="true"
+                android:textIsSelectable="true"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
